@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuyenCarrot</title>
+  <link rel="stylesheet" type="text/css" href='{{ "/assets/css/style.css" | relative_url }}'>
+</head>
+<body>
+<h1 style="margin: 0 0 5px;"> QuyenCarrot - On the way to be better developer</h1>
+<p><small><i>Desire to change, desire to be better</i></small></p>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+ </ul>
+</body>
+</html>
