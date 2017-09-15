@@ -13,5 +13,4 @@ for category in categories_list
   category[0] # name of category
   category[1].size # sum of its posts
   category[1] # list of posts
-
 ```

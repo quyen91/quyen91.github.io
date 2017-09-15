@@ -11,21 +11,44 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <div class="logo" style="overflow: hidden; width: 100%; height: 290px;"><img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/21151535_722791917909033_8814148483712534724_n.jpg?oh=3e2f0f7c8b696af48553f528f2f1e6cd&oe=5A5B5185"></div>
-      </header>
-      <section>
-      <h1> {{ page.title }}</h1>
-      {{ content }}
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small> <small>Maintained by @quyencarrot</small></p>
-      </footer>
+    <div class="nav-bar">
+      <div class="left-header col-md-3">
+         <a href="{{site.url}}"><h1>QuyenCR</h1></a>
+      </div>
+      <div class="right-header col-md-8">
+        <ul>
+          <li><a href="{{site.url}}">Home</a></li>
+          <li><a href=""> About </a></li>
+        </ul>
+      </div>
     </div>
+    <div class="main-container">
+         <div class="left-section col-md-3 ">
+            <ul>
+              {% for category in site.categories %}
+                <li><a href="{{site.baseurl}}/post-by-category#{{category[0]}}">{{ category[0] }} ({{ category[1].size }})</a></li>
+              {% endfor %}
+            </ul>
+         </div>
+
+          <div class="right-section col-md-8">
+            <h1> {{ page.title }}</h1>
+            {{ content }}
+          </div>
+
+          <div class="col-md-1"></div>
+      <!-- <section> -->
+      <!-- </section> -->
+        <div class="clear-both col-md-8 col-md-offset-3">
+            <footer>
+              <div class="footer-info">
+                <p><small>Hosted on GitHub Pages &mdash; Theme inspired by <a href="https://github.com/orderedlist">orderedlist</a></small> <small>Maintained by @quyencarrot</small></p>
+              </div>
+            </footer>
+        </div>
+
+    </div>
+
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 
