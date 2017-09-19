@@ -58,9 +58,34 @@ a:hover small {
     // background: wheat;
     background: white;
     padding: 20px;
+    .seperate-line {
+      text-align: center;
+      padding-bottom: 10px;
+    }
   }
   .left-section {
-
+    .post-count-on-cate {
+      float: right;
+      margin-right: 30px;
+      background: gray;
+      color: white;
+      padding: 0 10px 0 10px;
+    }
+    ul {
+      padding-left: 3px;
+      list-style-position:inside;
+      border-left: solid 5px #CCCCCC;
+      li {
+        padding: 0 0 3px 8px;
+      }
+      li:hover {
+        background: #F8F8F8;
+        margin-right: 30px;
+      }
+      li:nth-child(2n+1) {
+        // background: rgba(255, 255, 255, 0.15);
+      }
+    }
   }
 }
 .nav-bar{
@@ -70,13 +95,18 @@ a:hover small {
   .left-header {
     margin-top: 10px;
     h1 {
+      color: gray;
       font-style: italic;
       font-weight: bold;
     }
   }
   .right-header {
     background: white;
-    height: 50px;
+    height: 500px;
+    .bg-header {
+      height: 80px;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNchEOZP4RAUTdMpe4_3ChX4uf-ckXAL-JOrPMBJ5LS3nZIcS");
+    }
   }
   ul {
     li {
@@ -98,7 +128,11 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-
+.main-container {
+  .left-section {
+    display: none;
+  }
+}
 
 }
 
