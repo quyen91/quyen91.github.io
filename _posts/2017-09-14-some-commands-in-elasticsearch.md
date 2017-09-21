@@ -31,18 +31,26 @@ curl -XPOST localhost:9200/_aliases?pretty -d '
 
 # View all aliases and indexes
 ```ruby
-curl -XPGET 'localhost:9200/_alias?pretty'
+curl -XGET 'localhost:9200/_alias?pretty'
 ```
 
 # View data size of indexes
 ```ruby
 curl -XPGET 'localhost:9200/_cat/indices?pretty'
 or
-curl -XPGET 'localhost:9200/_cat/indices?v&pretty'
+curl -XGET 'localhost:9200/_cat/indices?v&pretty'
 
 yellow open posts_v3 RHypNTRkTmGdJ3wciYvdqw 5 1 11484 0 1001.6kb 1001.6kb
 yellow open users_v1 JIMJJCFxT8KHpQvLYzmaKQ 5 1   286 2   65.3kb   65.3kb
 yellow open users_v2 ri6_FbGRTQGyvt5it1xA1Q 5 1     0 0     650b     650b
 yellow open posts_v1 RcDU2fabRRGhydXwpQ76ag 5 1 11484 0      1mb      1mb
 yellow open users    M1HXfEcERkia8PgL-N6vcQ 5 1     0 0     650b     650b
+```
+# View cluster size
+```ruby
+curl -XGET 'http://localhost:9200/_cluster/stats?human&pretty'
+```
+# View index size + info
+```ruby
+curl -XGET 'http://localhost:9200/posts/_stats&pretty'
 ```

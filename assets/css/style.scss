@@ -6,7 +6,6 @@
 @import 'font_setting.css';
 
 body {
-  padding: 0px 50px 50px 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
@@ -58,6 +57,7 @@ a:hover small {
     // background: wheat;
     background: white;
     padding: 20px;
+    min-height: 385px;
     .seperate-line {
       text-align: center;
       padding-bottom: 10px;
@@ -123,8 +123,8 @@ footer {
 
 }
 .footer-info {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -132,6 +132,9 @@ footer {
   .left-section {
     display: none;
   }
+}
+.nav-bar{
+  height: 130px;
 }
 
 }
@@ -148,4 +151,22 @@ footer {
 .main-post-by-category {
     float: none;
     margin: 0 auto;
+}
+
+// Home page
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.big-header img
+{
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         30.5s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
 }

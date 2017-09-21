@@ -11,19 +11,20 @@
     <![endif]-->
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="left-header col-md-3">
-         <a href="{{site.url}}"><h1>QuyenCR</h1></a>
-      </div>
-      <div class="right-header col-md-8">
-        <ul>
-          <li><a href="{{site.url}}">Home</a></li>
-          <li><a href=""> About </a></li>
-        </ul>
-        <div class="bg-header"></div>
-      </div>
-    </div>
-    <div class="main-container">
+    <div class="container">
+      <div class="nav-bar">
+        <div class="left-header col-md-3">
+           <a href="{{site.url}}"><h1>QuyenCR</h1></a>
+        </div>
+        <div class="right-header col-md-8">
+          <ul>
+            <li><a href="{{site.url}}">Home</a></li>
+            <li><a href=""> About </a></li>
+          </ul>
+          <div class="bg-header"></div>
+        </div>
+      </div> <!-- End nav-bar -->
+      <div class="main-container">
          <div class="left-section col-md-3 ">
             <ul>
               {% for category in site.categories %}
@@ -32,27 +33,26 @@
             </ul>
          </div>
 
-          <div class="right-section col-md-8">
-            <h1> {{ page.title }}</h1>
+         <div class="right-section col-md-8">
+            <h1 class="post-title"> {{ page.title }}</h1>
             <div class="seperate-line">*****</div>
             {{ content }}
-          </div>
+         </div>
 
-          <div class="col-md-1"></div>
-      <!-- <section> -->
-      <!-- </section> -->
-        <div class="clear-both col-md-8 col-md-offset-3">
+         <div class="col-md-1"></div>
+                <!-- <section> -->
+                <!-- </section> -->
+         <div class="clear-both col-md-8 col-md-offset-3">
             <footer>
               <div class="footer-info">
                 <p><small>Hosted on GitHub Pages &mdash; Theme inspired by <a href="https://github.com/orderedlist">orderedlist</a></small> <small>Maintained by @quyencarrot</small></p>
               </div>
             </footer>
-        </div>
-
+         </div>
+      </div> <!--  End main-container -->
     </div>
 
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
 
   {% if site.google_analytics %}
 
