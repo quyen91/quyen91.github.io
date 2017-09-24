@@ -5,17 +5,31 @@
 @import 'code_highlight.css';
 @import 'font_setting.css';
 
+
+@keyframes color-animation {
+    0% {
+       background: wheat;
+    }
+    50% {
+       background: Bubble Gum;
+    }
+    100% {
+       background: #bbdefb
+    }
+}
+
 body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
   // background: #F8F8F8;
   background: wheat;
+  animation: color-animation 10s infinite linear alternate;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  margin: 0 0 20px; }
+  margin: 0 0 10px; }
 
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px !important; }
@@ -61,6 +75,9 @@ a:hover small {
     .seperate-line {
       text-align: center;
       padding-bottom: 10px;
+    }
+    h5 {
+      font-weight: bold;
     }
   }
   .left-section {
@@ -169,4 +186,8 @@ footer {
     -webkit-animation-duration:         30.5s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: linear;
+}
+
+body {
+  font-size: 160%;
 }
