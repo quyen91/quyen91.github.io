@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>QuyenCarrot</title>
-  <link rel="stylesheet" type="text/css" href='{{ "/assets/css/style.css" | relative_url }}'>
+  <title>quyenvan</title>
+  <link rel="stylesheet" type="text/css" href='{{ "/assets/css/home_page.css" | relative_url }}'>
 </head>
 <body>
 <div class="container">
-  <div class="big-header" style="width: 100%;position: relative; max-height: 500px; overflow: hidden; margin-bottom: 15px;">
-    <img class="img-responsive" src="https://dl.dropboxusercontent.com/s/iqcfrs84pv1rlqi/ty-davis-carrot-girl.jpg?dl=0">
-  </div>
-<h1 style="margin: 0 0 5px;"> QuyenCarrot - On the way to be better developer</h1>
-<p><small><i>Desire to change, desire to be better</i></small></p>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }} --- </time></span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
- </ul>
+  <div class="main-section col-md-9">
+    <div class="blog-header">
+    <h1 style="margin: 0 0 5px;"> quyenvan :irb> <span class="slogan">  On the way to be better developer </span></h1>
+      </div>
+    <p><small><i>Desire to change, desire to be better</i></small></p>
+      {{ content }}
+  </div><!--  End main-section -->
 </div>
 </body>
 </html>

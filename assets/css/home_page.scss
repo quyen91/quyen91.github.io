@@ -1,0 +1,44 @@
+---
+---
+@import 'bootstrap.css';
+@import 'code_highlight.css';
+@import 'font_setting.css';
+
+body {
+// Background image by: https://www.pexels.com/photo/android-android-phone-cell-phone-cellphone-404280/
+  background: url('https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  z-index: 1;
+  background-color: rgb(29, 25, 25);
+  background-blend-mode: overlay;
+
+}
+
+a {
+  color: rgb(41, 191, 34);
+}
+
+a:hover {
+  color: gray;
+}
+
+.main-section {
+  margin: 0 auto;
+  float: none;
+}
+
+.blog-header {
+  h1 {
+    font-weight: 900;
+  }
+  .slogan {
+    font-size: 14px;
+  }
+  color: rgb(41, 161, 20);
+  border-bottom: solid 1px rgba(128, 128, 128, 0.63);
+  padding: 10px 0px;
+}

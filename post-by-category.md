@@ -1,9 +1,10 @@
 ---
-layout: category
-title: Post by Category
+layout: home
+title: Archived
+permalink: /archived
 ---
 
-## All posts by categories
+## Archived
 
 {% for category in site.categories %}
 ### {{ category[0] }}
