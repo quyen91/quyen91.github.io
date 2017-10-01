@@ -103,14 +103,20 @@ a:hover small {
     .left-header {
       margin-top: 10px;
       h1 {
-        color: white;
+        color: #34de3c;
         font-style: italic;
         font-weight: bold;
       }
+      a:hover {
+        text-decoration: none;
+      }
     }
     .right-header {
+      ul {
+        padding-top: 7px;
+      }
       a {
-        color: #C4D5C7;
+        color: #34de3c;
       }
       a:hover {
         color: #F8F1F8;
