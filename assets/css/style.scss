@@ -61,9 +61,13 @@ a:hover small {
     min-height: 385px;
     .seperate-line {
       text-align: center;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
+      border-top: solid 1px #e0dede;
     }
     h5 {
+      font-weight: bold;
+    }
+    h1.post-title {
       font-weight: bold;
     }
   }

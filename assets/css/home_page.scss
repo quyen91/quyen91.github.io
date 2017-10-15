@@ -29,6 +29,15 @@ a:hover {
 .main-section {
   margin: 0 auto;
   float: none;
+  .site-slogan {
+    // color: rgb(101, 96, 96);
+    color: rgba(119, 101, 101, 0.71);
+  }
+  .top-post {
+    .entry-date {
+      color: rgb(101, 96, 96);
+    }
+  }
 }
 
 .blog-header {
