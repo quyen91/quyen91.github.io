@@ -15,6 +15,12 @@ for category in categories_list
   category[1] # list of posts
 ```
 
+##### Add class to markdown content
+```ruby
+### Archived
+{:.home-page-title}
+```
+
 ##### Using dropbox for hosting image
   - Create dropbox folder share
   - Upload image

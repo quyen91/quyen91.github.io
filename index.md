@@ -9,7 +9,7 @@ layout: home
   <ul>
     {% for post in site.posts %}
       <li>
-        <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }} --- </time></span>
+        <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }} --- </time></span>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}

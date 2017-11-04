@@ -4,7 +4,8 @@ title: Archived
 permalink: /archived
 ---
 
-## Archived
+## ===> Archived
+{:.home-page-title}
 
 {% for category in site.categories %}
 ### {{ category[0] }}

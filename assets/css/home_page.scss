@@ -12,7 +12,7 @@ body {
   background-size: cover;
 
   z-index: 1;
-  background-color: #fdefc8;
+  // background-color: #fdefc8;
   background-blend-mode: overlay;
 
 }
@@ -36,6 +36,13 @@ a:hover {
     .entry-date {
       color: rgb(101, 96, 96);
     }
+    ul {
+      li:nth-child(6n) {
+        border-bottom: solid 1px whitesmoke;
+        padding-bottom: 5px;
+        margin-bottom: 5px
+      }
+    }
   }
 }
 
@@ -57,4 +64,14 @@ a:hover {
   color: rgb(41, 161, 20);
   border-bottom: solid 1px rgba(128, 128, 128, 0.63);
   padding: 10px 0px;
+}
+.home-page-content {
+  h3 {
+    background: whitesmoke;
+    padding: 3px 10px;
+    font-family: monospace;
+  }
+  h2.home-page-title {
+    font-style: italic;
+  }
 }
