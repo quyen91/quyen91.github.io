@@ -1,4 +1,5 @@
 _site
+_posts/draft
 .sass-cache
 .jekyll-metadata
 demo.md
