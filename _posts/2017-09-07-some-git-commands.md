@@ -21,4 +21,10 @@ categories: github
 #### Combine nhiều commit thành một với git flow finish
 `git flow feature finish -S branch_name`
 
+### Reset one file
+git reset HEAD filename
+git checkout -- filename
+git reset --hard origin/master
+https://stackoverflow.com/a/1817774/3551956
+
 - [Git flow cheat_sheet](https://github.com/nvie/gitflow/wiki/Command-Line-Arguments)
