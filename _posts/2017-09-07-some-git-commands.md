@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Some git commands"
+title:  "[Git] Some git commands"
 date:   2017-09-07 15:30:46 +0700
 categories: github
 ---
