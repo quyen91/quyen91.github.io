@@ -15,6 +15,12 @@ git rebase -i HEAD~5
 #### Xem lịch sử các commit, merge...
 git reflog
 
+#### Huỷ bỏ một commit nhưng vẫn giữ lại các file đã change
+git reset HEAD^
+
+#### Undo git 1 git reset
+git reset 'HEAD@{1}'
+
 #### Hủy bỏ các commit đã thực hiện trước đó, cả những commit merge...
 git reset --hard HEAD@{N}
 
