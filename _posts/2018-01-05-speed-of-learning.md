@@ -34,3 +34,7 @@ Thế giới ngày càng phát triển, ngày càng nhiều tool, nhiều công 
 References:
 
 [How-I-Became-Better-Programmer](http://jlongster.com/How-I-Became-Better-Programmer)
+
+[8-ways-become-a-better-coder](https://blog.newrelic.com/2016/02/22/8-ways-become-a-better-coder/)
+
+[What-are-the-best-secrets-of-great-programmers](https://www.quora.com/What-are-the-best-secrets-of-great-programmers?redirected_qid=2412237)
