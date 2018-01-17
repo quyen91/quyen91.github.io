@@ -9,8 +9,12 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
-  // background: #F8F8F8;
-  // background: wheat;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,11 +58,15 @@ a:hover small {
   top: 50px;
   position: relative;
   .right-section {
+    border-right: dashed #e8e0e0 5px;
     margin: 0 auto;
     float: none;
-    background: white;
-    padding: 20px;
+    background: #ffffffd4;
+    padding: 60px;
     min-height: 385px;
+    -webkit-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
+    -moz-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
+    box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
     .seperate-line {
       text-align: center;
       padding-bottom: 30px;

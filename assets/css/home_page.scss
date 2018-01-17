@@ -3,18 +3,12 @@
 @import 'bootstrap.css';
 @import 'code_highlight.css';
 @import 'font_setting.css';
-
 body {
-  // background: url('https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') no-repeat center center fixed;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  z-index: 1;
-  // background-color: #fdefc8;
-  background-blend-mode: overlay;
-
 }
 
 a {
