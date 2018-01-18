@@ -6,7 +6,8 @@
 @import 'font_setting.css';
 
 body {
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 0.2em;
   color: #727272;
   font-weight: 400;
   background: url('../images/bg.jpg') no-repeat center center fixed;
@@ -58,10 +59,12 @@ a:hover small {
   top: 50px;
   position: relative;
   .right-section {
+    background: #ffffffd4;
+    // background-image: linear-gradient(#eeeeee8c .1em, transparent .1em);
+    // background-size: 100% 2em;
     border-right: dashed #e8e0e0 5px;
     margin: 0 auto;
     float: none;
-    background: #ffffffd4;
     padding: 60px;
     min-height: 385px;
     -webkit-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
@@ -77,6 +80,9 @@ a:hover small {
     }
     h1.post-title {
       font-weight: bold;
+    }
+    img {
+      width: 100%;
     }
   }
   .left-section {
