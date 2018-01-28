@@ -22,6 +22,11 @@ a:hover {
 }
 
 .main-section {
+  min-height: 960px;
+  background: #f3e7e7;
+  -webkit-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
+  -moz-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
+  box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
   margin: 0 auto;
   float: none;
   .site-slogan {
@@ -47,6 +52,7 @@ a:hover {
     color: #29bf22;
     font-weight: 900;
     font-style: italic;
+    font-weight: bold;
   }
   .slogan {
     font-size: 14px;
@@ -69,5 +75,11 @@ a:hover {
   }
   h2.home-page-title {
     font-style: italic;
+  }
+  a {
+    color: #2fab29;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.8px;
   }
 }

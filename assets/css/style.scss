@@ -84,6 +84,11 @@ a:hover small {
     img {
       width: 100%;
     }
+    h2,h3,h4{
+      padding-bottom: 8px;
+      border-bottom: solid 1px #e0dede;
+      margin-bottom: 20px;
+    }
   }
   .left-section {
     display: none;
