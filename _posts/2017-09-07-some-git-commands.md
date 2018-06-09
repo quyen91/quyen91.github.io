@@ -51,6 +51,25 @@ git commit --amend --author="Author_Name <email@address.com>"
 
 # https://stackoverflow.com/a/3042512/3551956
 # https://gist.github.com/trey/9588090
+
+#### Git remove untracked file/folder
+git clean -n # view what file will be deleted
+git clean -f # delete only file
+git clean -f -d # delete folder
+
+#### Pick commit to other branch
+git cherry pick
+
+#### Undo a reset --hard or go to a commit
+- In your branch
+git reflog
+# c14665d HEAD@{9}: checkout: moving from
+git checkout master (or original branch checkout from )
+git checkout c14665d
+
+#### Find commit
+git fsck
+git show
 ```
 
 - [Git flow cheat_sheet](https://github.com/nvie/gitflow/wiki/Command-Line-Arguments)

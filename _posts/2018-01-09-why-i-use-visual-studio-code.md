@@ -26,4 +26,20 @@ Những đặc điểm cần tự mình thêm:
     "editor.renderWhitespace": "all"
   # Set tab size is 2
     "editor.tabSize": 2
+  # Save file after 5s
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "off",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "editor.rulers": [80,100]
+
+```
+
+Một số packages cần thiết
+```ruby
+  # Style code đẹp hơn
+  - Simple ruby ERB
+  - Beautify (Beautify code in place for VS code)
 ```
