@@ -20,15 +20,14 @@ Những điểm mình không thích:
 Những đặc điểm cần tự mình thêm:
 
 ```ruby
-  # Tự động bỏ mấy cái khoảng trắng lúc kết thúc dòng hay vô ý thêm vào
-    "files.trimTrailingWhitespace": true
-  # Hiển thị dấu chấm để phân biệt khoảng trắng
-    "editor.renderWhitespace": "all"
-  # Set tab size is 2
-    "editor.tabSize": 2
-  # Save file after 5s
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 5000,
+    "workbench.colorTheme": "Monokai",
+    # "workbench.colorTheme": "One Dark Vivid",
+    # "workbench.colorTheme": "Acme Theme",
+    # Hiển thị dấu chấm để phân biệt khoảng trắng
+    "editor.renderWhitespace": "all",
+    # Tự động bỏ mấy cái khoảng trắng lúc kết thúc dòng hay vô ý thêm vào
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
     "window.zoomLevel": 0,
     "editor.wordWrap": "off",
     "files.autoSave": "afterDelay",
