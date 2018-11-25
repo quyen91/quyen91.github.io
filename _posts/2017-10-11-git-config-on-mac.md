@@ -26,3 +26,24 @@ git config credential.username 'Billy Everytee'
 # 'Billy Everytee` is your username in github
 # Ref: https://superuser.com/a/1245296
 ```
+
+#### Using many account github on mac
+```ruby
+# https://gist.github.com/hkasera/bcdac17ff11d6442130a
+
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+
+ssh-add ~/.ssh/quyen91_github
+```
+
+#### When pull from other account/organization
+```ruby
+# https://tiffanybbrown.com/2017/06/using-multiple-ssh-keys-with-github/index.html
+
+ Edit file .git/config
+
+  url = git@github.com-second_user_name:org-name-if-applicable/reponame.git
+  ex:
+  url = git@github.com-quyen91:airbn/reponame.git
+```
