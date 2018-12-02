@@ -4,13 +4,28 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<!--
+<script type='text/javascript'>
+  window.onload = evt => {
+    var colors = {
+      rails: '#F2B400',
+      github: '#9966CC'
+    }
+    console.log(colors['rails'])
+    var items = ['#F2B400', '#9966CC', '#A4C639', '#89CFF0', '#B0BF1A', '#C9FFE5']
+    document.querySelectorAll('.img-thumb').forEach(function(element) {
+      var item = items[Math.floor(Math.random()*items.length)];
+      element.style.background = item
+    });
+  };
+</script> -->
 
 <div class="top-post">
   <ul>
     {% for post in site.posts %}
       <li>
         <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }} --- </time></span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a class='post-title' href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>

@@ -41,7 +41,10 @@
          <div class="right-section col-md-9">
             <h1 class="post-title"> {{ page.title }}</h1>
             <div class="seperate-line"></div>
+
             {{ content }}
+            <div class="seperate-line"></div>
+            <div class="tagPost">Tagged with {{ page.categories | join: ', ' }} </div>
          </div>
 
          <div class="col-md-1"></div>
