@@ -23,6 +23,7 @@ url: https://quyen91.github.io/ # the base hostname & protocol for your site, e.
 twitter_username: jekyllrb
 github_username:  quyen91
 github: https://github.com/quyen91/quyen91.github.io
+comment: true
 
 # Build settings
 markdown: kramdown
