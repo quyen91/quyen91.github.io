@@ -23,7 +23,6 @@ url: https://quyen91.github.io/ # the base hostname & protocol for your site, e.
 twitter_username: jekyllrb
 github_username:  quyen91
 github: https://github.com/quyen91/quyen91.github.io
-comment: true
 
 # Build settings
 markdown: kramdown
@@ -45,3 +44,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: quyen91

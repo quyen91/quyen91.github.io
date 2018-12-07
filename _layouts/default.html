@@ -45,6 +45,7 @@
             {{ content }}
             <div class="seperate-line"></div>
             <div class="tagPost">Tagged with {{ page.categories | join: ', ' }} </div>
+            {% include disqus.html %}
          </div>
 
          <div class="col-md-1"></div>
@@ -65,7 +66,5 @@
   {% if site.google_analytics %}
 
   {% endif %}
-
-  {% include disqus.html %}
   </body>
 </html>
