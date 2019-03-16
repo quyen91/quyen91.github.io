@@ -20,7 +20,7 @@ layout: home
   };
 </script> -->
 
-<div class="top-post">
+<!-- <div class="top-post">
   <ul>
     {% for post in site.posts %}
       <li>
@@ -29,4 +29,14 @@ layout: home
       </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
+
+## ===> Issues
+{:.home-page-title}
+
+{% for category in site.categories %}
+### {{ category[0] }}
+{% for post in category[1] %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+{% endfor %}

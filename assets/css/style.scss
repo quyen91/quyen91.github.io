@@ -8,7 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   word-spacing: 0.2em;
-  color: #727272;
+  color: #483e3e;
   font-weight: 400;
   background: url('../images/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -59,7 +59,7 @@ a:hover small {
   top: 50px;
   position: relative;
   .right-section {
-    background: #ffffffd4;
+    background: #d3ecd8;
     // background-image: linear-gradient(#eeeeee8c .1em, transparent .1em);
     // background-size: 100% 2em;
     border-right: dashed #e8e0e0 5px;
@@ -73,7 +73,7 @@ a:hover small {
     .seperate-line {
       text-align: center;
       padding-bottom: 30px;
-      border-top: solid 1px #e0dede;
+      border-top: solid 1px #8a7e7e;
     }
     h5 {
       font-weight: bold;
@@ -86,7 +86,7 @@ a:hover small {
     }
     h2,h3,h4{
       padding-bottom: 8px;
-      border-bottom: solid 1px #e0dede;
+      border-bottom: solid 1px #8e7b7b;
       margin-bottom: 20px;
     }
   }
@@ -197,4 +197,8 @@ a:hover small {
 
 body {
   font-size: 160%;
+  #disqus_thread {
+    margin: 0 auto;
+    // width: 60%;
+  }
 }
