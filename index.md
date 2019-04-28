@@ -30,6 +30,18 @@ layout: home
     {% endfor %}
   </ul>
 </div> -->
+## ===> Last time I create issues
+{:.remind-title}
+{% assign today = site.time | date: '%s' %}
+{% assign start = site.posts.first.date | date: '%s' %}
+{% assign secondsSince = today | minus: start %}
+{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+{% assign daysSince = hoursSince | divided_by: 24  %}
+
+{{daysSince}} days ago
+{:.remind-time}
+
+
 ## ===> Latest issues
 {:.home-page-title}
 {% for post in site.posts limit:3 %}
