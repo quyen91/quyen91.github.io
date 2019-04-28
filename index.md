@@ -30,6 +30,12 @@ layout: home
     {% endfor %}
   </ul>
 </div> -->
+## ===> Latest issues
+{:.home-page-title}
+{% for post in site.posts limit:3 %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
 
 ## ===> Issues
 {:.home-page-title}
