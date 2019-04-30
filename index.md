@@ -30,16 +30,30 @@ layout: home
     {% endfor %}
   </ul>
 </div> -->
-## ===> Last time I create issues
-{:.remind-title}
-{% assign today = site.time | date: '%s' %}
-{% assign start = site.posts.first.date | date: '%s' %}
-{% assign secondsSince = today | minus: start %}
-{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
-{% assign daysSince = hoursSince | divided_by: 24  %}
 
-{{daysSince}} days ago
+<script type='text/javascript'>
+  function caculateTime() {
+    var today_in_number = new Date().getTime() / 1000
+    var last_time = document.getElementsByClassName('remind-latest-post')[0].textContent
+    distance = (parseInt(today_in_number) - parseInt(last_time))/60/60/24
+    var distanceDiv = document.getElementsByClassName('remind-time')[0]
+    distanceDiv.innerText = `${Math.round(distance)} days ago`
+}
+  window.onload = evt => {
+    caculateTime()
+  };
+</script>
+
+## ===> Last time I create issues
+
+{:.remind-latest-post.q-hidden}
+{{ site.posts.first.date | date: '%s' }}
+
+
+{:.remind-title}
+
 {:.remind-time}
+0 days ago
 
 
 ## ===> Latest issues
