@@ -99,6 +99,10 @@ a:hover {
   padding: 10px 0px;
 }
 .home-page-content {
+  .q-hidden {
+    display: none;
+  }
+
   h3 {
     background: whitesmoke;
     padding: 3px 10px;

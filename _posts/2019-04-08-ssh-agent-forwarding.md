@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "SSH agent forwarding"
-date: 2019-03-16 13:00:46 +0700
+date: 2019-04-08 13:00:46 +0700
 categories: devops
 tags: til
 ---
