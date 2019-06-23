@@ -44,7 +44,10 @@ layout: home
   };
 </script>
 
-## ===> Last time I create issues
+
+<div class="header-right" markdown='1'> 
+
+## Active
 
 {:.remind-latest-post.q-hidden}
 {{ site.posts.first.date | date: '%s' }}
@@ -56,14 +59,17 @@ layout: home
 0 days ago
 
 
-## ===> Latest issues
+## Latest issues
 {:.home-page-title}
+<div class="latest-item" markdown="1">
 {% for post in site.posts limit:3 %}
   - [{{ post.title }}]({{ post.url }})
 {% endfor %}
+</div>
 
+</div>
 
-## ===> Issues
+## Issues
 {:.home-page-title}
 
 {% for category in site.categories %}

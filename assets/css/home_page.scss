@@ -4,7 +4,8 @@
 @import 'code_highlight.css';
 @import 'font_setting.css';
 body {
-  font-family: 'Roboto', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Charkra Medium', sans-serif;
   word-spacing: 0.2em;
   background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -33,7 +34,6 @@ a:hover {
   .site-slogan {
     // color: rgb(101, 96, 96);
     color: rgba(119, 101, 101, 0.71);
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   .top-post {
     .entry-date {
@@ -47,7 +47,6 @@ a:hover {
         margin-bottom: 5px;
       }
       .post-title {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-weight: 500;
       }
       article{
@@ -99,6 +98,14 @@ a:hover {
   padding: 10px 0px;
 }
 .home-page-content {
+  .header-right {
+    text-align: right;
+    li { list-style: none;}
+    .latest-item {
+      font-style: italic;
+    }
+  }
+
   .q-hidden {
     display: none;
   }
@@ -106,19 +113,15 @@ a:hover {
   h3 {
     background: whitesmoke;
     padding: 3px 10px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     border-radius: 5px;
   }
   h2.home-page-title {
-    font-style: italic;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: right;
   }
   h2.remind-title {
     font-style: italic;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   p.remind-time {
-    text-align: center;
     font-size: 5em;
   }
   a {
@@ -126,6 +129,6 @@ a:hover {
     font-weight: 500;
     font-size: 1.2em;
     letter-spacing: 0.8px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Charkra Medium', sans-serif;
   }
 }

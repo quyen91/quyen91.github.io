@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: QuyenCV
+title: @quyencv
 email: doa9595@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am a developer with passion of researching, writing and sharing tips,
@@ -50,3 +50,6 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: quyen91
+
+# set timezone
+timezone: America/New_York
