@@ -31,6 +31,10 @@ layout: home
   </ul>
 </div> -->
 
+<!-- Script pointing to search-script.js -->
+<script src="search.js" type="text/javascript"></script>
+
+
 <script type='text/javascript'>
   function caculateTime() {
     var today_in_number = new Date().getTime() / 1000
@@ -41,8 +45,14 @@ layout: home
 }
   window.onload = evt => {
     caculateTime()
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: './search.json'
+    })
   };
 </script>
+
 
 
 <div class="header-right" markdown='1'> 
@@ -71,6 +81,12 @@ layout: home
 
 ## Issues
 {:.home-page-title}
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Search...">
+<ul id="results-container"></ul>
+</div>
 
 {% for category in site.categories %}
 ### {{ category[0] }}

@@ -131,4 +131,26 @@ a:hover {
     letter-spacing: 0.8px;
     font-family: 'Charkra Medium', sans-serif;
   }
+
+  #search-container {
+    text-align: right;
+    input {
+      width: 50%;
+      margin-bottom: 10px;
+      line-height: 1em;
+      border-radius: 7px;
+      border: none;
+      padding: 10px;
+    }
+    
+    ul {
+      li {
+        list-style-type: none;
+        a {
+          color: #ec9528;
+          font-size: 1em;
+        }
+      }
+    }
+  }
 }
