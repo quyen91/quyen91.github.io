@@ -132,6 +132,23 @@ a:hover {
     font-family: 'Charkra Medium', sans-serif;
   }
 
+  .home-posts {
+    ul {
+      li {
+        list-style-type: none;
+      }
+      li:before { /* the custom styled bullets */
+        background-color: #4dc567;
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        height: 9px;
+        width: 9px;
+      }
+    }
+  }
+
   #search-container {
     text-align: right;
     input {

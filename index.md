@@ -88,9 +88,27 @@ layout: home
 <ul id="results-container"></ul>
 </div>
 
-{% for category in site.categories %}
+<!-- {% for category in site.categories %}
 ### {{ category[0] }}
 {% for post in category[1] %}
   - [{{ post.title }}]({{ post.url }})
 {% endfor %}
-{% endfor %}
+{% endfor %} -->
+
+<div class="home-posts">
+ <ul>
+  {% for post in site.posts %}
+      {% assign year = post.date | date: "%Y" %}
+
+      {% if year != prev_year %}
+        <h3>{{year}}</h3>
+      {% endif %}
+
+      <li>
+        <span>{{ post.date | date: "%B %e, %Y" }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% assign prev_year = year %}
+  {% endfor %}
+  </ul>
+</div>
