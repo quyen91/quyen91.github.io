@@ -7,7 +7,8 @@ body {
   // font-family: 'Roboto', sans-serif;
   font-family: 'Charkra Medium', sans-serif;
   word-spacing: 0.2em;
-  background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
+  // background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
+  background: #332e2e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,7 +160,7 @@ a:hover {
       border: none;
       padding: 10px;
     }
-    
+
     ul {
       li {
         list-style-type: none;
