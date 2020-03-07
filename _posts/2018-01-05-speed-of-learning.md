@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[DEV] Speed of learning"
+title:  "Speed of learning"
 date:   2018-01-05 15:30:46 +0700
 categories: dev
 ---
@@ -27,7 +27,7 @@ Thỉnh thoảng tôi nghĩ về quá trình học, và trải nghiệm lập tr
 
 Những thứ quan trọng nhất là gì: `những khái niệm cơ bản, cốt lõi, cách giải quyết vấn đề, giải thuật, kiến trúc, tầm nhìn, khả năng mở rộng và duy trì của code`. Đối với những thứ này tôi và nhiều khác đều không tập trung phát triển, vì nó không có kết quả ngay lập tức. Nhiều khi học một ngôn ngữ chỉ là cú pháp, cách chạy để đáp ứng công việc mà không hiểu bản chất của nó.
 
-Thế giới ngày càng phát triển, ngày càng nhiều tool, nhiều công cụ ra đời, đời người thì có hạn, không thể cứ cái nào mới ra đều phải học, nếu như vậy ta thua bọn trẻ mới vào nghề rồi. Phải tìm cách học được thứ cốt lõi, giải quyết được vấn đề chưa từng giải quyết. Chứ không phải cố sống cố chết, học hết rồi để lúc nào gặp phải là biết làm. Ở cái ngưỡng đã bắt đầu biết cái gì cần phải học nghĩa là cũng đã có những hiểu biết nhất định, thời điểm này nhất định phải tận dụng nếu không sẽ không thể phát triển xa hơn. 
+Thế giới ngày càng phát triển, ngày càng nhiều tool, nhiều công cụ ra đời, đời người thì có hạn, không thể cứ cái nào mới ra đều phải học, nếu như vậy ta thua bọn trẻ mới vào nghề rồi. Phải tìm cách học được thứ cốt lõi, giải quyết được vấn đề chưa từng giải quyết. Chứ không phải cố sống cố chết, học hết rồi để lúc nào gặp phải là biết làm. Ở cái ngưỡng đã bắt đầu biết cái gì cần phải học nghĩa là cũng đã có những hiểu biết nhất định, thời điểm này nhất định phải tận dụng nếu không sẽ không thể phát triển xa hơn.
 
 `Bạn phải tập trung học những thứ giúp ích cho mình tới nhiều năm sau này`
 

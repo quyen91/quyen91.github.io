@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Git] Change git setting on mac"
+title:  "Change git setting on mac"
 date:   2017-09-30 15:30:46 +0700
 categories: github
 ---

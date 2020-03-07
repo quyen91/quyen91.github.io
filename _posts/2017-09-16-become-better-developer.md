@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[DEV] Become better developer!"
+title:  "Become better developer!"
 date:   2017-09-10 15:30:46 +0700
 categories: dev
 ---

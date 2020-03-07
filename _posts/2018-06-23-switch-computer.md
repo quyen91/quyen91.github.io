@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[DEVOPS] SWITCH COMPUTER!"
+title:  "SWITCH COMPUTER!"
 date:   2018-06-23 15:30:46 +0700
 categories: devops
 ---

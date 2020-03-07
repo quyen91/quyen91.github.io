@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Rails] Change elasticsearch mappings in rails!"
+title:  "Change elasticsearch mappings in rails!"
 date:   2017-09-12 15:30:46 +0700
 categories: rails
 tags: elasticsearch

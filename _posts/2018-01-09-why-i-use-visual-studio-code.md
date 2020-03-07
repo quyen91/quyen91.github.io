@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[DEV] Why I choose Visual Studio Code Editor"
+title:  "Why I choose Visual Studio Code Editor"
 date:   2018-01-05 15:30:46 +0700
 categories: dev
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[TIL] Ruby funny!"
+title:  "Ruby funny!"
 date:   2018-01-27 15:30:46 +0700
 categories: til
 ---

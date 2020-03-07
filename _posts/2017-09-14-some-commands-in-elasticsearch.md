@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Rails] Some commands in elasticsearch"
+title:  "Some commands in elasticsearch"
 date:   2017-09-10 15:30:46 +0700
 categories: rails
 tags: elasticseach

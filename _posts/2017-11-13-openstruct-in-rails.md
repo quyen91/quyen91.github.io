@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[RAILS] Openstruct in rails "
+title:  "Openstruct in rails "
 date:   2017-11-13 15:30:46 +0700
 categories: rails
 tags: openstruct

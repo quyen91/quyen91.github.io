@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[BlOG] Write blog with github and jekyll"
+title:  "Write blog with github and jekyll"
 date:   2017-09-07 15:30:46 +0700
 categories: blog
 ---

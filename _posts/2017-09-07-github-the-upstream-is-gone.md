@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[GIT] Upstream is gone!"
+title:  "Upstream is gone!"
 date:   2017-09-07 15:30:46 +0700
 categories: github
 ---
