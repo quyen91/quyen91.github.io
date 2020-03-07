@@ -1,0 +1,13 @@
+/* Theme dark */
+:root {
+  --black: #222;
+  --bg-blue: #afd8f7;
+  --bg-light-gray: #333;
+  --text-gray: #c2c2c2;
+  --text-header-white: #50317b;
+  --blue: #00b;
+  --blue-hard: #174d71;
+  --fullwidth: 100%;
+}
+
+/* Theme light */

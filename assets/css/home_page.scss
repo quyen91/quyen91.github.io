@@ -3,12 +3,14 @@
 @import 'bootstrap.css';
 @import 'code_highlight.css';
 @import 'font_setting.css';
+@import 'color.css';
+
 body {
   // font-family: 'Roboto', sans-serif;
-  font-family: 'Charkra Medium', sans-serif;
+  // font-family: 'Charkra Medium', sans-serif;
+  font-family: Verdana,Geneva,sans-serif;
+  background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
   word-spacing: 0.2em;
-  // background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
-  background: #332e2e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +27,7 @@ a:hover {
 
 .main-section {
   min-height: 960px;
-  background: #d3ecd8;
+  background: white;
   -webkit-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
   -moz-box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
   box-shadow: -19px -12px 24px -13px rgba(148,142,133,0.65);
@@ -33,12 +35,11 @@ a:hover {
   float: none;
   padding-bottom: 15px;
   .site-slogan {
-    // color: rgb(101, 96, 96);
     color: rgba(119, 101, 101, 0.71);
   }
   .top-post {
     .entry-date {
-      font-family: "Fira Mono",monospace;
+      font-family: Verdana,Geneva,sans-serif;
       color: rgb(101, 96, 96);
     }
     ul {
@@ -78,9 +79,10 @@ a:hover {
 }
 
 .blog-header {
+  background: #174d71;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   h1 {
-    color: #29bf22;
+    color: white;
     font-weight: 900;
     font-style: italic;
     font-weight: bold;
@@ -90,11 +92,11 @@ a:hover {
   }
   a {
     text-decoration: none;
+    color: white;
   }
   a:hover {
     color: #34DE3C;
   }
-  color: rgb(41, 161, 20);
   border-bottom: solid 1px rgba(128, 128, 128, 0.63);
   padding: 10px 0px;
 }
@@ -126,11 +128,15 @@ a:hover {
     font-size: 5em;
   }
   a {
-    color: #2fab29;
-    font-weight: 500;
-    font-size: 1.2em;
+    // color: #2fab29;
+    color: var(--text-header-white);
+    font-weight: bold;
+    font-size: 1.6em;
     letter-spacing: 0.8px;
     font-family: 'Charkra Medium', sans-serif;
+  }
+  a:hover {
+    color: #f07819;
   }
 
   .home-posts {
@@ -159,6 +165,7 @@ a:hover {
       border-radius: 7px;
       border: none;
       padding: 10px;
+      border: solid 1px var(--text-header-white);
     }
 
     ul {

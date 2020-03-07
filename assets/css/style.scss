@@ -4,12 +4,15 @@
 @import 'bootstrap.css';
 @import 'code_highlight.css';
 @import 'font_setting.css';
+@import 'color.css';
 
 body {
   // font-family: 'Roboto', sans-serif;
   font-family: 'Charkra Medium', sans-serif;
+  // font-family: inherit;
   word-spacing: 0.2em;
-  color: #483e3e;
+  // color: var(--text-gray);
+  color: #4a4949;
   font-weight: 400;
   background: url('../images/chris-adamus-30858-unsplash.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -20,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
+  color: var(--text-header-white);
   margin: 0 0 10px; }
 
 p, ul, ol, table, pre, dl {
@@ -33,10 +36,10 @@ h1 {
   font-size: 28px; }
 
 h2 {
-  color: #393939; }
+  color: var(--text-gray); }
 
 h3, h4, h5, h6 {
-  color: #494949; }
+  color: var(--text-header-white); }
 
 a {
   color: #267CB9;
@@ -60,9 +63,7 @@ a:hover small {
   top: 50px;
   position: relative;
   .right-section {
-    background: #d3ecd8;
-    // background-image: linear-gradient(#eeeeee8c .1em, transparent .1em);
-    // background-size: 100% 2em;
+    background: white;
     border-right: dashed #e8e0e0 5px;
     margin: 0 auto;
     float: none;
@@ -87,8 +88,9 @@ a:hover small {
       font-style: italic;
       margin-bottom: 10px;
       display: block;
-      background: #beeac5;
+      background: var(--bg-blue);
       padding-left: 5px;
+      color: var(--black);
     }
     img {
       width: 100%;
@@ -127,7 +129,7 @@ a:hover small {
 }
 .nav-bar-container {
   color: white;
-  background: #072f104f;
+  background: var(--blue-hard);
   .nav-bar{
     float: none;
     margin: 0 auto;
@@ -135,7 +137,7 @@ a:hover small {
     .left-header {
       margin-top: 10px;
       h1 {
-        color: #34de3c;
+        color: white;
         font-style: italic;
         font-weight: bold;
       }
@@ -148,10 +150,10 @@ a:hover small {
         padding-top: 7px;
       }
       a {
-        color: #34de3c;
+        color: white;
       }
       a:hover {
-        color: #F8F1F8;
+        color: orange;
       }
     }
     ul {
