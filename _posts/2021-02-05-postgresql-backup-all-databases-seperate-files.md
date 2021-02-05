@@ -21,6 +21,19 @@ do
 done
 
 ```
+- To restore to other local machine 
+
+```
+#!/bin/sh
+DBLIST=`ls ./DB_PG`
+for d in $DBLIST
+do
+ name=$(echo "$d" | cut -f 1 -d '.')
+#  createdb $name
+  psql -f ./DB_PG/$d $name
+done
+```
+
 
 ---
 References:
