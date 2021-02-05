@@ -9,7 +9,8 @@ Situtation: We need backup all postgresql database local before moving to other 
 
 Solution:
 - Create bash file
-```bash
+
+``` {r, engine='bash', count_lines}
 #!/bin/sh
 DBLIST=`/usr/local/bin/psql -U acvq -d postgres -q -t -c 'SELECT
 datname from pg_database order by datname'`
