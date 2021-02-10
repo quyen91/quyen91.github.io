@@ -5,12 +5,12 @@ date:   2021-02-05 15:30:46 +0700
 categories: devops
 ---
 
-Situtation: We need backup all postgresql database local before moving to other computer
+Situtation: We need backup all postgresql database local before moving to other computer. But we want 1 file dump per 1 database
 
 Solution:
 - Create bash file
 
-``` {r, engine='bash', count_lines}
+```
 #!/bin/sh
 DBLIST=`/usr/local/bin/psql -U acvq -d postgres -q -t -c 'SELECT
 datname from pg_database order by datname'`
@@ -21,7 +21,8 @@ do
 done
 
 ```
-- To restore to other local machine 
+
+- To restore to other local machine
 
 ```
 #!/bin/sh
@@ -33,7 +34,6 @@ do
   psql -f ./DB_PG/$d $name
 done
 ```
-
 
 ---
 References:
